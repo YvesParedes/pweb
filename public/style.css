@@ -1,0 +1,50 @@
+body {
+  background-image: url('../locura.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fondo-azul {
+  background-color: #55a5df;
+  padding: 10px;
+}
+
+.fondo-gris {
+  background-color: #8d8a8a;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+ul li:first-child, ol li:first-child {
+  font-weight: bold;
+  border-top: 2px solid #007bff;
+  padding-top: 5px;
+}
+
+ul li:last-child, ol li:last-child {
+  color: #dc3545;
+  border-bottom: 2px solid #dc3545;
+  padding-bottom: 5px;
+}
+
+.parrafo-interactivo {
+  transition: all 0.3s ease;
+}
+
+.parrafo-interactivo:hover {
+  color: #0056b3;
+  font-size: 1.1em;
+  cursor: pointer;
+}
